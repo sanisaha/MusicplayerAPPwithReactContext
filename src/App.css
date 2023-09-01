@@ -4,11 +4,23 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button {
+  padding: 2rem;
+  margin: 1rem;
+  background-color: maroon;
+  font-size: xx-large;
+}
+
+button:hover {
+  padding: 5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {

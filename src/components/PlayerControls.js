@@ -9,7 +9,7 @@ const PlayerControls = () => {
     const music = useMusicPlayer();
     return (
         <div>
-            <div>
+            <div style={{color:'white', fontSize:'5rem'}}>
             <p>{music.currentTrackName}</p>
         </div>
         <button>
